@@ -5,20 +5,21 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress-dev" :"cypress open"
+    "cypress-dev": "cypress open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daxas-boop/Simon.git"
   },
-  "author": "daxs",
+  "author": "daxas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/daxas-boop/Simon/issues"
   },
   "homepage": "https://github.com/daxas-boop/Simon#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "http-server": "^0.12.3"
   },
   "devDependencies": {
     "cypress": "^4.10.0"
