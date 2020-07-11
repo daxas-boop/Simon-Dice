@@ -29,7 +29,7 @@ function manejarRonda(){
     });
     
     
-    const TIEMPO = (inputComputer.length) * 1000;
+    const TIEMPO = (inputComputer.length + 1) * 1000;
     setTimeout(function(){
         desbloaquearInput();
         cambiarEstado("Tu turno");
