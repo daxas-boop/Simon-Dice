@@ -5,25 +5,24 @@
    }
    #cuadro-1{
         width: 30vh;
-        height: 40vh;
+        height: 45vh;
         background-color: red;
    }
    #cuadro-2{
         width: 30vh;
-        height: 40vh;
+        height: 45vh;
         background-color: blue;
    }
    #cuadro-3{
         width: 30vh;
-        height: 40vh;
+        height: 45vh;
         background-color: green;
    }
    #cuadro-4{
        width: 30vh;
-       height: 40vh;
+       height: 45vh;
        background-color: black;
    }
-    
 </style>
 <!DOCTYPE html>
 <html>
@@ -39,11 +38,14 @@
         <source src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-46416/zapsplat_multimedia_game_sound_soft_warm_subtle_positive_short_003_53018.mp3" type="audio/mpeg">
       </audio>
     <audio src="https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-27787/zapsplat_multimedia_game_sound_error_incorrect_003_30723.mp3" type="audio/mpeg" id="lose"></audio>
-    <nav class="navbar navbar-light bg-light justify-content-between w-100">
-        <a class="navbar-brand estado"></a>
-        <button class="btn btn-outline-success" type="button" id="Empezar">Empezar</button>
-        <a class="navbar-brand" id="rondas"># Rondas:</a>
-    </nav>
+    
+    
+    <div class="row align-items-center w-100">
+        <a class="col-sm-5 text-right estado"></a>
+        <button class="col-sm-1 btn btn-outline-success" type="button" id="Empezar">Empezar</button>
+        <a class="col-sm-5" id="rondas"># Rondas:</a>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col cuadro" id="cuadro-1"></div>
