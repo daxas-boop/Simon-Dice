@@ -121,3 +121,5 @@ function obtenerInputComputer(){
     const indice = Math.floor(Math.random()* $cuadro.length)
     return $cuadro[indice]
 }
+
+// TEST
